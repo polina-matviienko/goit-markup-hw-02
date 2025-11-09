@@ -1,9 +1,117 @@
 body {
-  font-family: 'Roboto', Arial, sans-serif;
-  color: #2e2f42;
-  background-color: #ffff;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.header .logo {
+  color: #2e2f42;
+}
+
+.header-nav {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address .link:hover,
+.header-address .link:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-button {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team .card-title {
+  text-align: center;
+}
+
+.team .card-text {
+  text-align: center;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
